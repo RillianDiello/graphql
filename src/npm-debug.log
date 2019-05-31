@@ -1,0 +1,948 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'mysql', '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mysql@^2.17.1
+8 silly fetchNamedPackageData mysql
+9 silly mapToRegistry name mysql
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mysql
+13 verbose get https://registry.npmjs.org/mysql not expired, no request
+14 silly install normalizeTree
+15 silly loadCurrentTree Finishing
+16 silly loadIdealTree Starting
+17 silly install loadIdealTree
+18 silly cloneCurrentTree Starting
+19 silly install cloneCurrentTreeToIdealTree
+20 silly cloneCurrentTree Finishing
+21 silly loadShrinkwrap Starting
+22 silly install loadShrinkwrap
+23 silly loadShrinkwrap Finishing
+24 silly loadAllDepsIntoIdealTree Starting
+25 silly install loadAllDepsIntoIdealTree
+26 silly resolveWithNewModule mysql@2.17.1 checking installable status
+27 silly cache add args [ 'mysql@^2.17.1', null ]
+28 verbose cache add spec mysql@^2.17.1
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'mysql@^2.17.1',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'mysql',
+29 silly cache add   rawSpec: '^2.17.1',
+29 silly cache add   spec: '>=2.17.1 <3.0.0',
+29 silly cache add   type: 'range' }
+30 silly addNamed mysql@>=2.17.1 <3.0.0
+31 verbose addNamed ">=2.17.1 <3.0.0" is a valid semver range for mysql
+32 silly addNameRange { name: 'mysql', range: '>=2.17.1 <3.0.0', hasData: false }
+33 silly mapToRegistry name mysql
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/mysql
+37 verbose addNameRange registry:https://registry.npmjs.org/mysql not in flight; fetching
+38 verbose get https://registry.npmjs.org/mysql not expired, no request
+39 silly addNameRange number 2 { name: 'mysql', range: '>=2.17.1 <3.0.0', hasData: true }
+40 silly addNameRange versions [ 'mysql',
+40 silly addNameRange   [ '0.1.0',
+40 silly addNameRange     '0.2.0',
+40 silly addNameRange     '0.3.0',
+40 silly addNameRange     '0.4.0',
+40 silly addNameRange     '0.5.0',
+40 silly addNameRange     '0.6.0',
+40 silly addNameRange     '0.7.0',
+40 silly addNameRange     '0.8.0',
+40 silly addNameRange     '0.9.0',
+40 silly addNameRange     '0.9.1',
+40 silly addNameRange     '0.9.2',
+40 silly addNameRange     '0.9.3',
+40 silly addNameRange     '0.9.4',
+40 silly addNameRange     '0.9.5',
+40 silly addNameRange     '0.9.6',
+40 silly addNameRange     '2.0.0-alpha',
+40 silly addNameRange     '2.0.0-alpha2',
+40 silly addNameRange     '2.0.0-alpha3',
+40 silly addNameRange     '2.0.0-alpha4',
+40 silly addNameRange     '2.0.0-alpha5',
+40 silly addNameRange     '2.0.0-alpha6',
+40 silly addNameRange     '2.0.0-alpha7',
+40 silly addNameRange     '2.0.0-alpha8',
+40 silly addNameRange     '2.0.0-alpha9',
+40 silly addNameRange     '2.0.0-rc1',
+40 silly addNameRange     '2.0.0-rc2',
+40 silly addNameRange     '2.0.0',
+40 silly addNameRange     '2.0.1',
+40 silly addNameRange     '2.1.0',
+40 silly addNameRange     '2.1.1',
+40 silly addNameRange     '2.2.0',
+40 silly addNameRange     '2.3.0',
+40 silly addNameRange     '2.3.1',
+40 silly addNameRange     '2.3.2',
+40 silly addNameRange     '2.4.0',
+40 silly addNameRange     '2.4.1',
+40 silly addNameRange     '2.4.2',
+40 silly addNameRange     '2.4.3',
+40 silly addNameRange     '2.5.0',
+40 silly addNameRange     '2.5.1',
+40 silly addNameRange     '2.5.2',
+40 silly addNameRange     '2.5.3',
+40 silly addNameRange     '2.5.4',
+40 silly addNameRange     '2.5.5',
+40 silly addNameRange     '2.6.0',
+40 silly addNameRange     '2.6.1',
+40 silly addNameRange     '2.6.2',
+40 silly addNameRange     '2.7.0',
+40 silly addNameRange     '2.8.0',
+40 silly addNameRange     '2.9.0',
+40 silly addNameRange     '2.10.0',
+40 silly addNameRange     '2.10.1',
+40 silly addNameRange     '2.10.2',
+40 silly addNameRange     '2.11.0',
+40 silly addNameRange     '2.11.1',
+40 silly addNameRange     '2.12.0',
+40 silly addNameRange     '2.13.0',
+40 silly addNameRange     '2.14.0',
+40 silly addNameRange     '2.14.1',
+40 silly addNameRange     '2.15.0',
+40 silly addNameRange     '2.16.0',
+40 silly addNameRange     '2.17.0',
+40 silly addNameRange     '2.17.1' ] ]
+41 silly addNamed mysql@2.17.1
+42 verbose addNamed "2.17.1" is a plain semver version for mysql
+43 silly cache afterAdd mysql@2.17.1
+44 verbose afterAdd /home/rillian/.npm/mysql/2.17.1/package/package.json not in flight; writing
+45 verbose afterAdd /home/rillian/.npm/mysql/2.17.1/package/package.json written
+46 silly fetchNamedPackageData bignumber.js
+47 silly mapToRegistry name bignumber.js
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/bignumber.js
+51 silly fetchNamedPackageData readable-stream
+52 silly mapToRegistry name readable-stream
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+56 silly fetchNamedPackageData safe-buffer
+57 silly mapToRegistry name safe-buffer
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/safe-buffer
+61 silly fetchNamedPackageData sqlstring
+62 silly mapToRegistry name sqlstring
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/sqlstring
+66 verbose get https://registry.npmjs.org/bignumber.js not expired, no request
+67 silly resolveWithNewModule bignumber.js@7.2.1 checking installable status
+68 silly cache add args [ 'bignumber.js@7.2.1', null ]
+69 verbose cache add spec bignumber.js@7.2.1
+70 silly cache add parsed spec Result {
+70 silly cache add   raw: 'bignumber.js@7.2.1',
+70 silly cache add   scope: null,
+70 silly cache add   name: 'bignumber.js',
+70 silly cache add   rawSpec: '7.2.1',
+70 silly cache add   spec: '7.2.1',
+70 silly cache add   type: 'version' }
+71 silly addNamed bignumber.js@7.2.1
+72 verbose addNamed "7.2.1" is a plain semver version for bignumber.js
+73 silly mapToRegistry name bignumber.js
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/bignumber.js
+77 verbose addNameVersion registry:https://registry.npmjs.org/bignumber.js not in flight; fetching
+78 verbose get https://registry.npmjs.org/safe-buffer not expired, no request
+79 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+80 silly cache add args [ 'safe-buffer@5.1.2', null ]
+81 verbose cache add spec safe-buffer@5.1.2
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'safe-buffer@5.1.2',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'safe-buffer',
+82 silly cache add   rawSpec: '5.1.2',
+82 silly cache add   spec: '5.1.2',
+82 silly cache add   type: 'version' }
+83 silly addNamed safe-buffer@5.1.2
+84 verbose addNamed "5.1.2" is a plain semver version for safe-buffer
+85 silly mapToRegistry name safe-buffer
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/safe-buffer
+89 verbose addNameVersion registry:https://registry.npmjs.org/safe-buffer not in flight; fetching
+90 verbose get https://registry.npmjs.org/sqlstring not expired, no request
+91 silly resolveWithNewModule sqlstring@2.3.1 checking installable status
+92 silly cache add args [ 'sqlstring@2.3.1', null ]
+93 verbose cache add spec sqlstring@2.3.1
+94 silly cache add parsed spec Result {
+94 silly cache add   raw: 'sqlstring@2.3.1',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'sqlstring',
+94 silly cache add   rawSpec: '2.3.1',
+94 silly cache add   spec: '2.3.1',
+94 silly cache add   type: 'version' }
+95 silly addNamed sqlstring@2.3.1
+96 verbose addNamed "2.3.1" is a plain semver version for sqlstring
+97 silly mapToRegistry name sqlstring
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/sqlstring
+101 verbose addNameVersion registry:https://registry.npmjs.org/sqlstring not in flight; fetching
+102 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+103 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+104 silly cache add args [ 'readable-stream@2.3.6', null ]
+105 verbose cache add spec readable-stream@2.3.6
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'readable-stream@2.3.6',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'readable-stream',
+106 silly cache add   rawSpec: '2.3.6',
+106 silly cache add   spec: '2.3.6',
+106 silly cache add   type: 'version' }
+107 silly addNamed readable-stream@2.3.6
+108 verbose addNamed "2.3.6" is a plain semver version for readable-stream
+109 silly mapToRegistry name readable-stream
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+113 verbose addNameVersion registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+114 verbose get https://registry.npmjs.org/bignumber.js not expired, no request
+115 verbose get https://registry.npmjs.org/safe-buffer not expired, no request
+116 verbose get https://registry.npmjs.org/sqlstring not expired, no request
+117 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+118 silly cache afterAdd bignumber.js@7.2.1
+119 verbose afterAdd /home/rillian/.npm/bignumber.js/7.2.1/package/package.json not in flight; writing
+120 silly cache afterAdd safe-buffer@5.1.2
+121 verbose afterAdd /home/rillian/.npm/safe-buffer/5.1.2/package/package.json not in flight; writing
+122 silly cache afterAdd sqlstring@2.3.1
+123 verbose afterAdd /home/rillian/.npm/sqlstring/2.3.1/package/package.json not in flight; writing
+124 silly cache afterAdd readable-stream@2.3.6
+125 verbose afterAdd /home/rillian/.npm/readable-stream/2.3.6/package/package.json not in flight; writing
+126 verbose afterAdd /home/rillian/.npm/bignumber.js/7.2.1/package/package.json written
+127 verbose afterAdd /home/rillian/.npm/safe-buffer/5.1.2/package/package.json written
+128 verbose afterAdd /home/rillian/.npm/sqlstring/2.3.1/package/package.json written
+129 verbose afterAdd /home/rillian/.npm/readable-stream/2.3.6/package/package.json written
+130 silly fetchNamedPackageData core-util-is
+131 silly mapToRegistry name core-util-is
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/core-util-is
+135 silly fetchNamedPackageData process-nextick-args
+136 silly mapToRegistry name process-nextick-args
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/process-nextick-args
+140 silly fetchNamedPackageData string_decoder
+141 silly mapToRegistry name string_decoder
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
+145 silly fetchNamedPackageData util-deprecate
+146 silly mapToRegistry name util-deprecate
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/util-deprecate
+150 verbose get https://registry.npmjs.org/core-util-is not expired, no request
+151 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+152 silly cache add args [ 'core-util-is@~1.0.0', null ]
+153 verbose cache add spec core-util-is@~1.0.0
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'core-util-is@~1.0.0',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'core-util-is',
+154 silly cache add   rawSpec: '~1.0.0',
+154 silly cache add   spec: '>=1.0.0 <1.1.0',
+154 silly cache add   type: 'range' }
+155 silly addNamed core-util-is@>=1.0.0 <1.1.0
+156 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for core-util-is
+157 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+158 silly mapToRegistry name core-util-is
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry uri https://registry.npmjs.org/core-util-is
+162 verbose addNameRange registry:https://registry.npmjs.org/core-util-is not in flight; fetching
+163 verbose get https://registry.npmjs.org/process-nextick-args not expired, no request
+164 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+165 silly cache add args [ 'process-nextick-args@~2.0.0', null ]
+166 verbose cache add spec process-nextick-args@~2.0.0
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'process-nextick-args@~2.0.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'process-nextick-args',
+167 silly cache add   rawSpec: '~2.0.0',
+167 silly cache add   spec: '>=2.0.0 <2.1.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed process-nextick-args@>=2.0.0 <2.1.0
+169 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for process-nextick-args
+170 silly addNameRange { name: 'process-nextick-args',
+170 silly addNameRange   range: '>=2.0.0 <2.1.0',
+170 silly addNameRange   hasData: false }
+171 silly mapToRegistry name process-nextick-args
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/process-nextick-args
+175 verbose addNameRange registry:https://registry.npmjs.org/process-nextick-args not in flight; fetching
+176 verbose get https://registry.npmjs.org/string_decoder not expired, no request
+177 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+178 silly cache add args [ 'string_decoder@~1.1.1', null ]
+179 verbose cache add spec string_decoder@~1.1.1
+180 silly cache add parsed spec Result {
+180 silly cache add   raw: 'string_decoder@~1.1.1',
+180 silly cache add   scope: null,
+180 silly cache add   name: 'string_decoder',
+180 silly cache add   rawSpec: '~1.1.1',
+180 silly cache add   spec: '>=1.1.1 <1.2.0',
+180 silly cache add   type: 'range' }
+181 silly addNamed string_decoder@>=1.1.1 <1.2.0
+182 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for string_decoder
+183 silly addNameRange { name: 'string_decoder',
+183 silly addNameRange   range: '>=1.1.1 <1.2.0',
+183 silly addNameRange   hasData: false }
+184 silly mapToRegistry name string_decoder
+185 silly mapToRegistry using default registry
+186 silly mapToRegistry registry https://registry.npmjs.org/
+187 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
+188 verbose addNameRange registry:https://registry.npmjs.org/string_decoder not in flight; fetching
+189 verbose get https://registry.npmjs.org/util-deprecate not expired, no request
+190 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+191 silly cache add args [ 'util-deprecate@~1.0.1', null ]
+192 verbose cache add spec util-deprecate@~1.0.1
+193 silly cache add parsed spec Result {
+193 silly cache add   raw: 'util-deprecate@~1.0.1',
+193 silly cache add   scope: null,
+193 silly cache add   name: 'util-deprecate',
+193 silly cache add   rawSpec: '~1.0.1',
+193 silly cache add   spec: '>=1.0.1 <1.1.0',
+193 silly cache add   type: 'range' }
+194 silly addNamed util-deprecate@>=1.0.1 <1.1.0
+195 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for util-deprecate
+196 silly addNameRange { name: 'util-deprecate',
+196 silly addNameRange   range: '>=1.0.1 <1.1.0',
+196 silly addNameRange   hasData: false }
+197 silly mapToRegistry name util-deprecate
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry uri https://registry.npmjs.org/util-deprecate
+201 verbose addNameRange registry:https://registry.npmjs.org/util-deprecate not in flight; fetching
+202 verbose get https://registry.npmjs.org/core-util-is not expired, no request
+203 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+204 silly addNameRange versions [ 'core-util-is', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+205 silly addNamed core-util-is@1.0.2
+206 verbose addNamed "1.0.2" is a plain semver version for core-util-is
+207 verbose get https://registry.npmjs.org/string_decoder not expired, no request
+208 silly addNameRange number 2 { name: 'string_decoder',
+208 silly addNameRange   range: '>=1.1.1 <1.2.0',
+208 silly addNameRange   hasData: true }
+209 silly addNameRange versions [ 'string_decoder',
+209 silly addNameRange   [ '0.0.0',
+209 silly addNameRange     '0.0.1',
+209 silly addNameRange     '0.10.24',
+209 silly addNameRange     '0.11.10',
+209 silly addNameRange     '0.10.25',
+209 silly addNameRange     '0.11.10-1',
+209 silly addNameRange     '0.10.25-1',
+209 silly addNameRange     '0.10.31',
+209 silly addNameRange     '1.0.0',
+209 silly addNameRange     '1.0.1',
+209 silly addNameRange     '1.0.2',
+209 silly addNameRange     '1.0.3',
+209 silly addNameRange     '1.1.0',
+209 silly addNameRange     '1.1.1',
+209 silly addNameRange     '1.2.0' ] ]
+210 silly addNamed string_decoder@1.1.1
+211 verbose addNamed "1.1.1" is a plain semver version for string_decoder
+212 verbose get https://registry.npmjs.org/process-nextick-args not expired, no request
+213 silly addNameRange number 2 { name: 'process-nextick-args',
+213 silly addNameRange   range: '>=2.0.0 <2.1.0',
+213 silly addNameRange   hasData: true }
+214 silly addNameRange versions [ 'process-nextick-args',
+214 silly addNameRange   [ '1.0.0',
+214 silly addNameRange     '1.0.1',
+214 silly addNameRange     '1.0.2',
+214 silly addNameRange     '1.0.3',
+214 silly addNameRange     '1.0.4',
+214 silly addNameRange     '1.0.5',
+214 silly addNameRange     '1.0.6',
+214 silly addNameRange     '1.0.7',
+214 silly addNameRange     '2.0.0' ] ]
+215 silly addNamed process-nextick-args@2.0.0
+216 verbose addNamed "2.0.0" is a plain semver version for process-nextick-args
+217 verbose get https://registry.npmjs.org/util-deprecate not expired, no request
+218 silly addNameRange number 2 { name: 'util-deprecate',
+218 silly addNameRange   range: '>=1.0.1 <1.1.0',
+218 silly addNameRange   hasData: true }
+219 silly addNameRange versions [ 'util-deprecate', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+220 silly addNamed util-deprecate@1.0.2
+221 verbose addNamed "1.0.2" is a plain semver version for util-deprecate
+222 silly cache afterAdd core-util-is@1.0.2
+223 verbose afterAdd /home/rillian/.npm/core-util-is/1.0.2/package/package.json not in flight; writing
+224 silly cache afterAdd string_decoder@1.1.1
+225 verbose afterAdd /home/rillian/.npm/string_decoder/1.1.1/package/package.json not in flight; writing
+226 silly cache afterAdd process-nextick-args@2.0.0
+227 verbose afterAdd /home/rillian/.npm/process-nextick-args/2.0.0/package/package.json not in flight; writing
+228 silly cache afterAdd util-deprecate@1.0.2
+229 verbose afterAdd /home/rillian/.npm/util-deprecate/1.0.2/package/package.json not in flight; writing
+230 verbose afterAdd /home/rillian/.npm/string_decoder/1.1.1/package/package.json written
+231 verbose afterAdd /home/rillian/.npm/process-nextick-args/2.0.0/package/package.json written
+232 verbose afterAdd /home/rillian/.npm/core-util-is/1.0.2/package/package.json written
+233 verbose afterAdd /home/rillian/.npm/util-deprecate/1.0.2/package/package.json written
+234 silly loadAllDepsIntoIdealTree Finishing
+235 silly idealTree:prePrune graphql@1.0.0
+235 silly idealTree:prePrune ├── @babel/polyfill@7.4.4
+235 silly idealTree:prePrune ├── @types/bluebird@3.5.27
+235 silly idealTree:prePrune ├── arr-diff@4.0.0
+235 silly idealTree:prePrune ├── arr-flatten@1.1.0
+235 silly idealTree:prePrune ├── arr-union@3.1.0
+235 silly idealTree:prePrune ├── array-each@1.0.1
+235 silly idealTree:prePrune ├── array-slice@1.1.0
+235 silly idealTree:prePrune ├── array-unique@0.3.2
+235 silly idealTree:prePrune ├── assign-symbols@1.0.0
+235 silly idealTree:prePrune ├── atob@2.1.2
+235 silly idealTree:prePrune ├─┬ base@0.11.2
+235 silly idealTree:prePrune │ ├── define-property@1.0.0
+235 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+235 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+235 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+235 silly idealTree:prePrune ├── bignumber.js@7.2.1
+235 silly idealTree:prePrune ├── bluebird@3.5.5
+235 silly idealTree:prePrune ├─┬ braces@2.3.2
+235 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+235 silly idealTree:prePrune ├── cache-base@1.0.1
+235 silly idealTree:prePrune ├─┬ class-utils@0.3.6
+235 silly idealTree:prePrune │ └── define-property@0.2.5
+235 silly idealTree:prePrune ├── collection-visit@1.0.0
+235 silly idealTree:prePrune ├── colorette@1.0.7
+235 silly idealTree:prePrune ├── commander@2.20.0
+235 silly idealTree:prePrune ├── component-emitter@1.3.0
+235 silly idealTree:prePrune ├── copy-descriptor@0.1.1
+235 silly idealTree:prePrune ├── core-js@2.6.9
+235 silly idealTree:prePrune ├── core-util-is@1.0.2
+235 silly idealTree:prePrune ├── debug@4.1.1
+235 silly idealTree:prePrune ├── decode-uri-component@0.2.0
+235 silly idealTree:prePrune ├─┬ define-property@2.0.2
+235 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+235 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+235 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+235 silly idealTree:prePrune ├── detect-file@1.0.0
+235 silly idealTree:prePrune ├─┬ expand-brackets@2.1.4
+235 silly idealTree:prePrune │ ├── debug@2.6.9
+235 silly idealTree:prePrune │ ├── define-property@0.2.5
+235 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+235 silly idealTree:prePrune │ └── ms@2.0.0
+235 silly idealTree:prePrune ├── expand-tilde@2.0.2
+235 silly idealTree:prePrune ├─┬ extend-shallow@3.0.2
+235 silly idealTree:prePrune │ └── is-extendable@1.0.1
+235 silly idealTree:prePrune ├── extend@3.0.2
+235 silly idealTree:prePrune ├─┬ extglob@2.0.4
+235 silly idealTree:prePrune │ ├── define-property@1.0.0
+235 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+235 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+235 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+235 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+235 silly idealTree:prePrune ├─┬ fill-range@4.0.0
+235 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+235 silly idealTree:prePrune ├── findup-sync@3.0.0
+235 silly idealTree:prePrune ├── fined@1.2.0
+235 silly idealTree:prePrune ├── flagged-respawn@1.0.1
+235 silly idealTree:prePrune ├── for-in@1.0.2
+235 silly idealTree:prePrune ├── for-own@1.0.0
+235 silly idealTree:prePrune ├── fragment-cache@0.2.1
+235 silly idealTree:prePrune ├── get-value@2.0.6
+235 silly idealTree:prePrune ├── getopts@2.2.3
+235 silly idealTree:prePrune ├── global-modules@1.0.0
+235 silly idealTree:prePrune ├── global-prefix@1.0.2
+235 silly idealTree:prePrune ├── has-value@1.0.0
+235 silly idealTree:prePrune ├─┬ has-values@1.0.0
+235 silly idealTree:prePrune │ └── kind-of@4.0.0
+235 silly idealTree:prePrune ├── homedir-polyfill@1.0.3
+235 silly idealTree:prePrune ├── inherits@2.0.3
+235 silly idealTree:prePrune ├── ini@1.3.5
+235 silly idealTree:prePrune ├── interpret@1.2.0
+235 silly idealTree:prePrune ├── is-absolute@1.0.0
+235 silly idealTree:prePrune ├─┬ is-accessor-descriptor@0.1.6
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├── is-buffer@1.1.6
+235 silly idealTree:prePrune ├─┬ is-data-descriptor@0.1.4
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├─┬ is-descriptor@0.1.6
+235 silly idealTree:prePrune │ └── kind-of@5.1.0
+235 silly idealTree:prePrune ├── is-extendable@0.1.1
+235 silly idealTree:prePrune ├── is-extglob@2.1.1
+235 silly idealTree:prePrune ├── is-glob@4.0.1
+235 silly idealTree:prePrune ├─┬ is-number@3.0.0
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├── is-plain-object@2.0.4
+235 silly idealTree:prePrune ├── is-relative@1.0.0
+235 silly idealTree:prePrune ├── is-unc-path@1.0.0
+235 silly idealTree:prePrune ├── is-windows@1.0.2
+235 silly idealTree:prePrune ├── isarray@1.0.0
+235 silly idealTree:prePrune ├── isexe@2.0.0
+235 silly idealTree:prePrune ├── isobject@3.0.1
+235 silly idealTree:prePrune ├── kind-of@6.0.2
+235 silly idealTree:prePrune ├── knex@0.17.0
+235 silly idealTree:prePrune ├── liftoff@3.1.0
+235 silly idealTree:prePrune ├── lodash@4.17.11
+235 silly idealTree:prePrune ├── make-iterator@1.0.1
+235 silly idealTree:prePrune ├── map-cache@0.2.2
+235 silly idealTree:prePrune ├── map-visit@1.0.0
+235 silly idealTree:prePrune ├── micromatch@3.1.10
+235 silly idealTree:prePrune ├── minimist@0.0.8
+235 silly idealTree:prePrune ├─┬ mixin-deep@1.3.1
+235 silly idealTree:prePrune │ └── is-extendable@1.0.1
+235 silly idealTree:prePrune ├── mkdirp@0.5.1
+235 silly idealTree:prePrune ├── ms@2.1.1
+235 silly idealTree:prePrune ├── mysql@2.17.1
+235 silly idealTree:prePrune ├── nanomatch@1.2.13
+235 silly idealTree:prePrune ├─┬ object-copy@0.1.0
+235 silly idealTree:prePrune │ ├── define-property@0.2.5
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├── object-visit@1.0.1
+235 silly idealTree:prePrune ├── object.defaults@1.1.0
+235 silly idealTree:prePrune ├── object.map@1.0.1
+235 silly idealTree:prePrune ├── object.pick@1.3.0
+235 silly idealTree:prePrune ├── os-homedir@1.0.2
+235 silly idealTree:prePrune ├── parse-filepath@1.0.2
+235 silly idealTree:prePrune ├── parse-passwd@1.0.0
+235 silly idealTree:prePrune ├── pascalcase@0.1.1
+235 silly idealTree:prePrune ├── path-parse@1.0.6
+235 silly idealTree:prePrune ├── path-root-regex@0.1.2
+235 silly idealTree:prePrune ├── path-root@0.1.1
+235 silly idealTree:prePrune ├── pg-connection-string@2.0.0
+235 silly idealTree:prePrune ├── posix-character-classes@0.1.1
+235 silly idealTree:prePrune ├── process-nextick-args@2.0.0
+235 silly idealTree:prePrune ├── readable-stream@2.3.6
+235 silly idealTree:prePrune ├── rechoir@0.6.2
+235 silly idealTree:prePrune ├── regenerator-runtime@0.13.2
+235 silly idealTree:prePrune ├── regex-not@1.0.2
+235 silly idealTree:prePrune ├── repeat-element@1.1.3
+235 silly idealTree:prePrune ├── repeat-string@1.6.1
+235 silly idealTree:prePrune ├── resolve-dir@1.0.1
+235 silly idealTree:prePrune ├── resolve-url@0.2.1
+235 silly idealTree:prePrune ├── resolve@1.11.0
+235 silly idealTree:prePrune ├── ret@0.1.15
+235 silly idealTree:prePrune ├── safe-buffer@5.1.2
+235 silly idealTree:prePrune ├── safe-regex@1.1.0
+235 silly idealTree:prePrune ├─┬ set-value@2.0.0
+235 silly idealTree:prePrune │ └── extend-shallow@2.0.1
+235 silly idealTree:prePrune ├─┬ snapdragon-node@2.1.1
+235 silly idealTree:prePrune │ ├── define-property@1.0.0
+235 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+235 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+235 silly idealTree:prePrune │ └── is-descriptor@1.0.2
+235 silly idealTree:prePrune ├─┬ snapdragon-util@3.0.1
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├─┬ snapdragon@0.8.2
+235 silly idealTree:prePrune │ ├── debug@2.6.9
+235 silly idealTree:prePrune │ ├── define-property@0.2.5
+235 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+235 silly idealTree:prePrune │ └── ms@2.0.0
+235 silly idealTree:prePrune ├── source-map-resolve@0.5.2
+235 silly idealTree:prePrune ├── source-map-url@0.4.0
+235 silly idealTree:prePrune ├── source-map@0.5.7
+235 silly idealTree:prePrune ├── split-string@3.1.0
+235 silly idealTree:prePrune ├── sqlstring@2.3.1
+235 silly idealTree:prePrune ├─┬ static-extend@0.1.2
+235 silly idealTree:prePrune │ └── define-property@0.2.5
+235 silly idealTree:prePrune ├── string_decoder@1.1.1
+235 silly idealTree:prePrune ├── tarn@1.1.5
+235 silly idealTree:prePrune ├── tildify@1.2.0
+235 silly idealTree:prePrune ├─┬ to-object-path@0.3.0
+235 silly idealTree:prePrune │ └── kind-of@3.2.2
+235 silly idealTree:prePrune ├── to-regex-range@2.1.1
+235 silly idealTree:prePrune ├── to-regex@3.0.2
+235 silly idealTree:prePrune ├── unc-path-regex@0.1.2
+235 silly idealTree:prePrune ├─┬ union-value@1.0.0
+235 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+235 silly idealTree:prePrune │ └── set-value@0.4.3
+235 silly idealTree:prePrune ├─┬ unset-value@1.0.0
+235 silly idealTree:prePrune │ ├─┬ has-value@0.3.1
+235 silly idealTree:prePrune │ │ └── isobject@2.1.0
+235 silly idealTree:prePrune │ └── has-values@0.1.4
+235 silly idealTree:prePrune ├── urix@0.1.0
+235 silly idealTree:prePrune ├── use@3.1.1
+235 silly idealTree:prePrune ├── util-deprecate@1.0.2
+235 silly idealTree:prePrune ├── uuid@3.3.2
+235 silly idealTree:prePrune ├── v8flags@3.1.3
+235 silly idealTree:prePrune └── which@1.3.1
+236 silly loadIdealTree Finishing
+237 silly currentTree graphql@1.0.0
+237 silly currentTree ├── @babel/polyfill@7.4.4
+237 silly currentTree ├── @types/bluebird@3.5.27
+237 silly currentTree ├── arr-diff@4.0.0
+237 silly currentTree ├── arr-flatten@1.1.0
+237 silly currentTree ├── arr-union@3.1.0
+237 silly currentTree ├── array-each@1.0.1
+237 silly currentTree ├── array-slice@1.1.0
+237 silly currentTree ├── array-unique@0.3.2
+237 silly currentTree ├── assign-symbols@1.0.0
+237 silly currentTree ├── atob@2.1.2
+237 silly currentTree ├─┬ base@0.11.2
+237 silly currentTree │ ├── define-property@1.0.0
+237 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+237 silly currentTree │ ├── is-data-descriptor@1.0.0
+237 silly currentTree │ └── is-descriptor@1.0.2
+237 silly currentTree ├── bignumber.js@7.2.1
+237 silly currentTree ├── bluebird@3.5.5
+237 silly currentTree ├─┬ braces@2.3.2
+237 silly currentTree │ └── extend-shallow@2.0.1
+237 silly currentTree ├── cache-base@1.0.1
+237 silly currentTree ├─┬ class-utils@0.3.6
+237 silly currentTree │ └── define-property@0.2.5
+237 silly currentTree ├── collection-visit@1.0.0
+237 silly currentTree ├── colorette@1.0.7
+237 silly currentTree ├── commander@2.20.0
+237 silly currentTree ├── component-emitter@1.3.0
+237 silly currentTree ├── copy-descriptor@0.1.1
+237 silly currentTree ├── core-js@2.6.9
+237 silly currentTree ├── core-util-is@1.0.2
+237 silly currentTree ├── debug@4.1.1
+237 silly currentTree ├── decode-uri-component@0.2.0
+237 silly currentTree ├─┬ define-property@2.0.2
+237 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+237 silly currentTree │ ├── is-data-descriptor@1.0.0
+237 silly currentTree │ └── is-descriptor@1.0.2
+237 silly currentTree ├── detect-file@1.0.0
+237 silly currentTree ├─┬ expand-brackets@2.1.4
+237 silly currentTree │ ├── debug@2.6.9
+237 silly currentTree │ ├── define-property@0.2.5
+237 silly currentTree │ ├── extend-shallow@2.0.1
+237 silly currentTree │ └── ms@2.0.0
+237 silly currentTree ├── expand-tilde@2.0.2
+237 silly currentTree ├─┬ extend-shallow@3.0.2
+237 silly currentTree │ └── is-extendable@1.0.1
+237 silly currentTree ├── extend@3.0.2
+237 silly currentTree ├─┬ extglob@2.0.4
+237 silly currentTree │ ├── define-property@1.0.0
+237 silly currentTree │ ├── extend-shallow@2.0.1
+237 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+237 silly currentTree │ ├── is-data-descriptor@1.0.0
+237 silly currentTree │ └── is-descriptor@1.0.2
+237 silly currentTree ├─┬ fill-range@4.0.0
+237 silly currentTree │ └── extend-shallow@2.0.1
+237 silly currentTree ├── findup-sync@3.0.0
+237 silly currentTree ├── fined@1.2.0
+237 silly currentTree ├── flagged-respawn@1.0.1
+237 silly currentTree ├── for-in@1.0.2
+237 silly currentTree ├── for-own@1.0.0
+237 silly currentTree ├── fragment-cache@0.2.1
+237 silly currentTree ├── get-value@2.0.6
+237 silly currentTree ├── getopts@2.2.3
+237 silly currentTree ├── global-modules@1.0.0
+237 silly currentTree ├── global-prefix@1.0.2
+237 silly currentTree ├── has-value@1.0.0
+237 silly currentTree ├─┬ has-values@1.0.0
+237 silly currentTree │ └── kind-of@4.0.0
+237 silly currentTree ├── homedir-polyfill@1.0.3
+237 silly currentTree ├── inherits@2.0.3
+237 silly currentTree ├── ini@1.3.5
+237 silly currentTree ├── interpret@1.2.0
+237 silly currentTree ├── is-absolute@1.0.0
+237 silly currentTree ├─┬ is-accessor-descriptor@0.1.6
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├── is-buffer@1.1.6
+237 silly currentTree ├─┬ is-data-descriptor@0.1.4
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├─┬ is-descriptor@0.1.6
+237 silly currentTree │ └── kind-of@5.1.0
+237 silly currentTree ├── is-extendable@0.1.1
+237 silly currentTree ├── is-extglob@2.1.1
+237 silly currentTree ├── is-glob@4.0.1
+237 silly currentTree ├─┬ is-number@3.0.0
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├── is-plain-object@2.0.4
+237 silly currentTree ├── is-relative@1.0.0
+237 silly currentTree ├── is-unc-path@1.0.0
+237 silly currentTree ├── is-windows@1.0.2
+237 silly currentTree ├── isarray@1.0.0
+237 silly currentTree ├── isexe@2.0.0
+237 silly currentTree ├── isobject@3.0.1
+237 silly currentTree ├── kind-of@6.0.2
+237 silly currentTree ├── knex@0.17.0
+237 silly currentTree ├── liftoff@3.1.0
+237 silly currentTree ├── lodash@4.17.11
+237 silly currentTree ├── make-iterator@1.0.1
+237 silly currentTree ├── map-cache@0.2.2
+237 silly currentTree ├── map-visit@1.0.0
+237 silly currentTree ├── micromatch@3.1.10
+237 silly currentTree ├── minimist@0.0.8
+237 silly currentTree ├─┬ mixin-deep@1.3.1
+237 silly currentTree │ └── is-extendable@1.0.1
+237 silly currentTree ├── mkdirp@0.5.1
+237 silly currentTree ├── ms@2.1.1
+237 silly currentTree ├── mysql@2.17.1
+237 silly currentTree ├── nanomatch@1.2.13
+237 silly currentTree ├─┬ object-copy@0.1.0
+237 silly currentTree │ ├── define-property@0.2.5
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├── object-visit@1.0.1
+237 silly currentTree ├── object.defaults@1.1.0
+237 silly currentTree ├── object.map@1.0.1
+237 silly currentTree ├── object.pick@1.3.0
+237 silly currentTree ├── os-homedir@1.0.2
+237 silly currentTree ├── parse-filepath@1.0.2
+237 silly currentTree ├── parse-passwd@1.0.0
+237 silly currentTree ├── pascalcase@0.1.1
+237 silly currentTree ├── path-parse@1.0.6
+237 silly currentTree ├── path-root-regex@0.1.2
+237 silly currentTree ├── path-root@0.1.1
+237 silly currentTree ├── pg-connection-string@2.0.0
+237 silly currentTree ├── posix-character-classes@0.1.1
+237 silly currentTree ├── process-nextick-args@2.0.0
+237 silly currentTree ├── readable-stream@2.3.6
+237 silly currentTree ├── rechoir@0.6.2
+237 silly currentTree ├── regenerator-runtime@0.13.2
+237 silly currentTree ├── regex-not@1.0.2
+237 silly currentTree ├── repeat-element@1.1.3
+237 silly currentTree ├── repeat-string@1.6.1
+237 silly currentTree ├── resolve-dir@1.0.1
+237 silly currentTree ├── resolve-url@0.2.1
+237 silly currentTree ├── resolve@1.11.0
+237 silly currentTree ├── ret@0.1.15
+237 silly currentTree ├── safe-buffer@5.1.2
+237 silly currentTree ├── safe-regex@1.1.0
+237 silly currentTree ├─┬ set-value@2.0.0
+237 silly currentTree │ └── extend-shallow@2.0.1
+237 silly currentTree ├─┬ snapdragon-node@2.1.1
+237 silly currentTree │ ├── define-property@1.0.0
+237 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+237 silly currentTree │ ├── is-data-descriptor@1.0.0
+237 silly currentTree │ └── is-descriptor@1.0.2
+237 silly currentTree ├─┬ snapdragon-util@3.0.1
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├─┬ snapdragon@0.8.2
+237 silly currentTree │ ├── debug@2.6.9
+237 silly currentTree │ ├── define-property@0.2.5
+237 silly currentTree │ ├── extend-shallow@2.0.1
+237 silly currentTree │ └── ms@2.0.0
+237 silly currentTree ├── source-map-resolve@0.5.2
+237 silly currentTree ├── source-map-url@0.4.0
+237 silly currentTree ├── source-map@0.5.7
+237 silly currentTree ├── split-string@3.1.0
+237 silly currentTree ├── sqlstring@2.3.1
+237 silly currentTree ├─┬ static-extend@0.1.2
+237 silly currentTree │ └── define-property@0.2.5
+237 silly currentTree ├── string_decoder@1.1.1
+237 silly currentTree ├── tarn@1.1.5
+237 silly currentTree ├── tildify@1.2.0
+237 silly currentTree ├─┬ to-object-path@0.3.0
+237 silly currentTree │ └── kind-of@3.2.2
+237 silly currentTree ├── to-regex-range@2.1.1
+237 silly currentTree ├── to-regex@3.0.2
+237 silly currentTree ├── unc-path-regex@0.1.2
+237 silly currentTree ├─┬ union-value@1.0.0
+237 silly currentTree │ ├── extend-shallow@2.0.1
+237 silly currentTree │ └── set-value@0.4.3
+237 silly currentTree ├─┬ unset-value@1.0.0
+237 silly currentTree │ ├─┬ has-value@0.3.1
+237 silly currentTree │ │ └── isobject@2.1.0
+237 silly currentTree │ └── has-values@0.1.4
+237 silly currentTree ├── urix@0.1.0
+237 silly currentTree ├── use@3.1.1
+237 silly currentTree ├── util-deprecate@1.0.2
+237 silly currentTree ├── uuid@3.3.2
+237 silly currentTree ├── v8flags@3.1.3
+237 silly currentTree └── which@1.3.1
+238 silly idealTree graphql@1.0.0
+238 silly idealTree ├── @babel/polyfill@7.4.4
+238 silly idealTree ├── @types/bluebird@3.5.27
+238 silly idealTree ├── arr-diff@4.0.0
+238 silly idealTree ├── arr-flatten@1.1.0
+238 silly idealTree ├── arr-union@3.1.0
+238 silly idealTree ├── array-each@1.0.1
+238 silly idealTree ├── array-slice@1.1.0
+238 silly idealTree ├── array-unique@0.3.2
+238 silly idealTree ├── assign-symbols@1.0.0
+238 silly idealTree ├── atob@2.1.2
+238 silly idealTree ├─┬ base@0.11.2
+238 silly idealTree │ ├── define-property@1.0.0
+238 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+238 silly idealTree │ ├── is-data-descriptor@1.0.0
+238 silly idealTree │ └── is-descriptor@1.0.2
+238 silly idealTree ├── bignumber.js@7.2.1
+238 silly idealTree ├── bluebird@3.5.5
+238 silly idealTree ├─┬ braces@2.3.2
+238 silly idealTree │ └── extend-shallow@2.0.1
+238 silly idealTree ├── cache-base@1.0.1
+238 silly idealTree ├─┬ class-utils@0.3.6
+238 silly idealTree │ └── define-property@0.2.5
+238 silly idealTree ├── collection-visit@1.0.0
+238 silly idealTree ├── colorette@1.0.7
+238 silly idealTree ├── commander@2.20.0
+238 silly idealTree ├── component-emitter@1.3.0
+238 silly idealTree ├── copy-descriptor@0.1.1
+238 silly idealTree ├── core-js@2.6.9
+238 silly idealTree ├── core-util-is@1.0.2
+238 silly idealTree ├── debug@4.1.1
+238 silly idealTree ├── decode-uri-component@0.2.0
+238 silly idealTree ├─┬ define-property@2.0.2
+238 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+238 silly idealTree │ ├── is-data-descriptor@1.0.0
+238 silly idealTree │ └── is-descriptor@1.0.2
+238 silly idealTree ├── detect-file@1.0.0
+238 silly idealTree ├─┬ expand-brackets@2.1.4
+238 silly idealTree │ ├── debug@2.6.9
+238 silly idealTree │ ├── define-property@0.2.5
+238 silly idealTree │ ├── extend-shallow@2.0.1
+238 silly idealTree │ └── ms@2.0.0
+238 silly idealTree ├── expand-tilde@2.0.2
+238 silly idealTree ├─┬ extend-shallow@3.0.2
+238 silly idealTree │ └── is-extendable@1.0.1
+238 silly idealTree ├── extend@3.0.2
+238 silly idealTree ├─┬ extglob@2.0.4
+238 silly idealTree │ ├── define-property@1.0.0
+238 silly idealTree │ ├── extend-shallow@2.0.1
+238 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+238 silly idealTree │ ├── is-data-descriptor@1.0.0
+238 silly idealTree │ └── is-descriptor@1.0.2
+238 silly idealTree ├─┬ fill-range@4.0.0
+238 silly idealTree │ └── extend-shallow@2.0.1
+238 silly idealTree ├── findup-sync@3.0.0
+238 silly idealTree ├── fined@1.2.0
+238 silly idealTree ├── flagged-respawn@1.0.1
+238 silly idealTree ├── for-in@1.0.2
+238 silly idealTree ├── for-own@1.0.0
+238 silly idealTree ├── fragment-cache@0.2.1
+238 silly idealTree ├── get-value@2.0.6
+238 silly idealTree ├── getopts@2.2.3
+238 silly idealTree ├── global-modules@1.0.0
+238 silly idealTree ├── global-prefix@1.0.2
+238 silly idealTree ├── has-value@1.0.0
+238 silly idealTree ├─┬ has-values@1.0.0
+238 silly idealTree │ └── kind-of@4.0.0
+238 silly idealTree ├── homedir-polyfill@1.0.3
+238 silly idealTree ├── inherits@2.0.3
+238 silly idealTree ├── ini@1.3.5
+238 silly idealTree ├── interpret@1.2.0
+238 silly idealTree ├── is-absolute@1.0.0
+238 silly idealTree ├─┬ is-accessor-descriptor@0.1.6
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├── is-buffer@1.1.6
+238 silly idealTree ├─┬ is-data-descriptor@0.1.4
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├─┬ is-descriptor@0.1.6
+238 silly idealTree │ └── kind-of@5.1.0
+238 silly idealTree ├── is-extendable@0.1.1
+238 silly idealTree ├── is-extglob@2.1.1
+238 silly idealTree ├── is-glob@4.0.1
+238 silly idealTree ├─┬ is-number@3.0.0
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├── is-plain-object@2.0.4
+238 silly idealTree ├── is-relative@1.0.0
+238 silly idealTree ├── is-unc-path@1.0.0
+238 silly idealTree ├── is-windows@1.0.2
+238 silly idealTree ├── isarray@1.0.0
+238 silly idealTree ├── isexe@2.0.0
+238 silly idealTree ├── isobject@3.0.1
+238 silly idealTree ├── kind-of@6.0.2
+238 silly idealTree ├── knex@0.17.0
+238 silly idealTree ├── liftoff@3.1.0
+238 silly idealTree ├── lodash@4.17.11
+238 silly idealTree ├── make-iterator@1.0.1
+238 silly idealTree ├── map-cache@0.2.2
+238 silly idealTree ├── map-visit@1.0.0
+238 silly idealTree ├── micromatch@3.1.10
+238 silly idealTree ├── minimist@0.0.8
+238 silly idealTree ├─┬ mixin-deep@1.3.1
+238 silly idealTree │ └── is-extendable@1.0.1
+238 silly idealTree ├── mkdirp@0.5.1
+238 silly idealTree ├── ms@2.1.1
+238 silly idealTree ├── mysql@2.17.1
+238 silly idealTree ├── nanomatch@1.2.13
+238 silly idealTree ├─┬ object-copy@0.1.0
+238 silly idealTree │ ├── define-property@0.2.5
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├── object-visit@1.0.1
+238 silly idealTree ├── object.defaults@1.1.0
+238 silly idealTree ├── object.map@1.0.1
+238 silly idealTree ├── object.pick@1.3.0
+238 silly idealTree ├── os-homedir@1.0.2
+238 silly idealTree ├── parse-filepath@1.0.2
+238 silly idealTree ├── parse-passwd@1.0.0
+238 silly idealTree ├── pascalcase@0.1.1
+238 silly idealTree ├── path-parse@1.0.6
+238 silly idealTree ├── path-root-regex@0.1.2
+238 silly idealTree ├── path-root@0.1.1
+238 silly idealTree ├── pg-connection-string@2.0.0
+238 silly idealTree ├── posix-character-classes@0.1.1
+238 silly idealTree ├── process-nextick-args@2.0.0
+238 silly idealTree ├── readable-stream@2.3.6
+238 silly idealTree ├── rechoir@0.6.2
+238 silly idealTree ├── regenerator-runtime@0.13.2
+238 silly idealTree ├── regex-not@1.0.2
+238 silly idealTree ├── repeat-element@1.1.3
+238 silly idealTree ├── repeat-string@1.6.1
+238 silly idealTree ├── resolve-dir@1.0.1
+238 silly idealTree ├── resolve-url@0.2.1
+238 silly idealTree ├── resolve@1.11.0
+238 silly idealTree ├── ret@0.1.15
+238 silly idealTree ├── safe-buffer@5.1.2
+238 silly idealTree ├── safe-regex@1.1.0
+238 silly idealTree ├─┬ set-value@2.0.0
+238 silly idealTree │ └── extend-shallow@2.0.1
+238 silly idealTree ├─┬ snapdragon-node@2.1.1
+238 silly idealTree │ ├── define-property@1.0.0
+238 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+238 silly idealTree │ ├── is-data-descriptor@1.0.0
+238 silly idealTree │ └── is-descriptor@1.0.2
+238 silly idealTree ├─┬ snapdragon-util@3.0.1
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├─┬ snapdragon@0.8.2
+238 silly idealTree │ ├── debug@2.6.9
+238 silly idealTree │ ├── define-property@0.2.5
+238 silly idealTree │ ├── extend-shallow@2.0.1
+238 silly idealTree │ └── ms@2.0.0
+238 silly idealTree ├── source-map-resolve@0.5.2
+238 silly idealTree ├── source-map-url@0.4.0
+238 silly idealTree ├── source-map@0.5.7
+238 silly idealTree ├── split-string@3.1.0
+238 silly idealTree ├── sqlstring@2.3.1
+238 silly idealTree ├─┬ static-extend@0.1.2
+238 silly idealTree │ └── define-property@0.2.5
+238 silly idealTree ├── string_decoder@1.1.1
+238 silly idealTree ├── tarn@1.1.5
+238 silly idealTree ├── tildify@1.2.0
+238 silly idealTree ├─┬ to-object-path@0.3.0
+238 silly idealTree │ └── kind-of@3.2.2
+238 silly idealTree ├── to-regex-range@2.1.1
+238 silly idealTree ├── to-regex@3.0.2
+238 silly idealTree ├── unc-path-regex@0.1.2
+238 silly idealTree ├─┬ union-value@1.0.0
+238 silly idealTree │ ├── extend-shallow@2.0.1
+238 silly idealTree │ └── set-value@0.4.3
+238 silly idealTree ├─┬ unset-value@1.0.0
+238 silly idealTree │ ├─┬ has-value@0.3.1
+238 silly idealTree │ │ └── isobject@2.1.0
+238 silly idealTree │ └── has-values@0.1.4
+238 silly idealTree ├── urix@0.1.0
+238 silly idealTree ├── use@3.1.1
+238 silly idealTree ├── util-deprecate@1.0.2
+238 silly idealTree ├── uuid@3.3.2
+238 silly idealTree ├── v8flags@3.1.3
+238 silly idealTree └── which@1.3.1
+239 silly generateActionsToTake Starting
+240 silly install generateActionsToTake
+241 warn checkPermissions Missing write access to /home/rillian/Documentos/Estudo/graphql/node_modules
+242 silly rollbackFailedOptional Starting
+243 silly rollbackFailedOptional Finishing
+244 silly runTopLevelLifecycles Starting
+245 silly runTopLevelLifecycles Finishing
+246 silly install printInstalled
+247 warn graphql@1.0.0 No description
+248 warn graphql@1.0.0 No repository field.
+249 verbose stack Error: EACCES: permission denied, access '/home/rillian/Documentos/Estudo/graphql/node_modules'
+250 verbose cwd /home/rillian/Documentos/Estudo/graphql/src
+251 error Linux 4.15.0-50-generic
+252 error argv "/usr/bin/node" "/usr/bin/npm" "install" "mysql" "--save"
+253 error node v8.10.0
+254 error npm  v3.5.2
+255 error path /home/rillian/Documentos/Estudo/graphql/node_modules
+256 error code EACCES
+257 error errno -13
+258 error syscall access
+259 error Error: EACCES: permission denied, access '/home/rillian/Documentos/Estudo/graphql/node_modules'
+259 error  { Error: EACCES: permission denied, access '/home/rillian/Documentos/Estudo/graphql/node_modules'
+259 error   errno: -13,
+259 error   code: 'EACCES',
+259 error   syscall: 'access',
+259 error   path: '/home/rillian/Documentos/Estudo/graphql/node_modules' }
+260 error Please try running this command again as root/Administrator.
+261 verbose exit [ -13, true ]
